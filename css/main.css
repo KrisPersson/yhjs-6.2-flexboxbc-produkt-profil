@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(210 210 210);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.card {
+    width: 250px;
+    height: 420px;
+    background: white;
+    box-shadow: 3px 3px 21px rgb(0 0 0 / .15);
+}
+.card__text-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    height: auto;
+    padding: 0 20px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+article h1  {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+article h2  {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+}
+article p  {
+    font-size: 0.9rem;
+    color: rgb(0 0 0 / .6)
+}
+article h3 {
+    align-self: flex-end;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
